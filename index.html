@@ -1,0 +1,728 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Carles Dulcet | Desarrollador de Software</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-126939217-2');
+  </script>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Carles Dulcet | Desarrollador de Software" />
+  <meta property="og:description" content="Desarrollador de Software" />
+  <meta property="og:url" content="https://cdulcet.github.io/" />
+  <meta property="og:site_name" content="Carles Dulcet | Desarrollador de Software" />
+  <meta property="article:publisher" content="https://cdulcet.github.io/" />
+  <!--
+  <meta property="og:image" content="https://cdulcet.github.io/examples/preview.JPG" />
+-->
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+  <!-- Google Site Verification for indexing -->
+  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navegar al inicio de la página" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/portrait.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navegar a la sección Sobre Mí" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>Sobre Mí</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navegar a la sección Experiencia" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experiencia</span></a>
+      </li>
+
+      <!--
+      <li class="bold">        
+        <a aria-label="Navegar a la sección Proyectos" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Proyectos</span></a>
+      </li>
+      -->
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navegar a la sección Habilidades" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Habilidades</span></a>
+      </li>
+      
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navegar a la sección Educación" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Educación</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navegar a la sección Contacto" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contacto</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <a aria-label="Abrir el CV de Carles Dulcet en una nueva ventana" href="https://cdulcet.github.io/assets/resume/CarlesDulcetCVVitae.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Currículum</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Alternar la visibilidad de la barra de navegación móvil" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navegar al inicio de la página" href="#" class="teal-text">Carles Dulcet</a><span class="black-text">Desarrollador de software</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navegar a la sección Sobre Mí" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>Sobre Mí</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navegar a la sección Experiencia" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experiencia</span></a>
+      </li>
+      <!--
+      <li class="bold">
+        <a aria-label="Navegar a la sección Proyectos" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Proyectos</span></a>
+      </li>
+      -->
+      <li class="bold">
+        <a aria-label="Navegar a la sección Habilidades" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Habilidades</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navegar a la sección Educación" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Educación</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navegar a la sección Contacto" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contacto</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Abrir el CV de Carles Dulcet en una nueva ventana" href="https://cdulcet.github.io/assets/resume/CarlesDulcetCVVitae.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Currículum</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hola, me llamo <span class="teal-text-landing">Carles Dulcet.</span></h2>
+              <h5 style="color:#fff">Soy <span class="typing" style="font-weight: 300; color:#000001; background-color:#a8a7e7"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <h5>Profesional proactivo, de aprendizaje rápido y apasionado por la programación, con una mentalidad inquieta y orientada a resolver problemas complejos del mundo real.</h5>
+            </div>
+            <div class="social">
+              <!--
+              <a href="http://linkedin.com/in/Carlesbhogayata" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              -->
+              <a href="https://github.com/cdulcet/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Leer más</a>
+              <a href="#contact" class="contactme">Contáctame</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">Sobre Mí</h3>
+
+      <div class="container flow-text">
+        <p>
+          Líder técnico con más de 10 años de experiencia en desarrollo de software, perfil full stack y especialización en backend.<br>
+          Amplia experiencia en diseño e implementación de APIs REST, arquitectura de software y gestión de bases de datos relacionales y NoSQL.<br>
+          Acostumbrado a tomar decisiones técnicas, coordinar equipos y aplicar buenas prácticas de desarrollo, con una visión práctica orientada a resultados.
+        </p>
+      </div>
+
+      <div class="container flow-text left-align">
+        <h4>Aptitudes técnicas</h4>
+        <ul>
+          <li>- Desarrollo backend y frontend (web y mobile)</li>
+          <li>- Diseño de arquitecturas escalables y mantenibles</li>
+          <li>- Bases de datos relacionales y NoSQL</li>
+          <li>- CI/CD, despliegue y mantenimiento de aplicaciones</li>
+          <li>- Liderazgo técnico y resolución de problemas</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experiencia</h3>
+      <div class="container">
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.imatia.com/" target="_blank"><img alt="Imatia logo"
+                    src="/assets/img/imatia.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m2">
+                <p>
+                  <span class="card-title"><a href="https://try.cividas.com/cividas/" target="_blank"
+                      class="teal-text hoverline">Cividas</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role teal-text">Jefe de equipo - Líder técnico</div>
+            <ul>
+              <li>Gestión y desarrollo aplicación Java para administración pública de gestión de registros y expedientes, incluyendo tramitación y firma.</li>
+              <li>Gestión y desarrollo de la Sede Electrónica para ayuntamientos.</li>              
+              <li>Tareas de gestión y organización del proyecto utilizando metodología Scrum para un equipo de 5 personas.</li>
+              <li>Creación de arquitectura de software para las integraciones realizadas en Cividas así como mejora de la arquitectura legacy actual</li>
+              <li>Despliegue a nueva infraestructura en la nube gestionado por Kubernetes y contenedores Docker.</li>
+              <li>
+                <b>Herramientas:</b> Java, JSF, Docker, SpringBoot
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>2018 - Actualidad</span>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://vivirencasa.org" target="_blank"><img alt="VivirEnCasa logo"
+                    src="/assets/img/logo_vivirencasa.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="http://appvivirencasa.uma.es" target="_blank"
+                      class="teal-text hoverline">VivirEnCasa</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role teal-text">Jefe de equipo - Líder técnico</div>
+            <ul>
+              <li>
+                Proyecto Web y Mobile para gestión de calendario, medicación, contactos, ocio y nutrición.
+              </li>
+              <li>
+                Creación de arquitectura necesaria para el desarrollo del proyecto, así como gestión y organización del equipo metodología SCRUM.
+              </li>
+              <li>
+                Toma de requisitos funcionales y técnicos.
+              </li>
+              <li>
+                Fase 1 - Creación aplicación móvil Android en lenguaje Kotlin.
+              </li>
+              <li>
+                Fase 2 - Migración aplicación móvil a multiplataforma mediante FLUTTER, disponible en <a href="https://apps.apple.com/us/app/vivir-en-casa/id6753671930" target="_blank"
+                      class="teal-text hoverline">IOS</a> y <a href="https://play.google.com/store/apps/details?id=com.imatia.vivirencasa&hl=ca&pli=1" target="_blank"
+                      class="teal-text hoverline">Android</a>
+              </li>
+              <li>
+                Web de gestión para VivirEnCasa creada en Angular.
+              </li>
+              <li>
+                <b>Herramientas:</b> Angular, Flutter, Kotlin, SpringBoot, JPA, Docker, Kubernetes, JUnit
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>2024 - 2025</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.knowmadmood.com/es" target="_blank"><img alt="ATSistemas logo"
+                    src="/assets/img/atsistemas.jpg" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m2">
+                <p>
+                  <span class="card-title"><a href="https://www.zara.com/" target="_blank"
+                      class="teal-text hoverline">Zara</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role teal-text">Programador Senior</div>
+            <ul>
+              <li>
+                Programador Senior en Backend de Zara.com, departamento de checkout (carrito).
+              </li>
+              <li>
+                Desarrollo y mantenimiento del backend de la web de Zara.com
+              </li>
+              <li>
+                <b>Herramientas:</b> Java, API Rest
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>2016 - 2018</span>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.altiacompany.com/" target="_blank"><img alt="Altia logo"
+                    src="/assets/img/altia.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m2">
+                <p>
+                  <span class="card-title"><a href="https://www.altiacompany.com/" target="_blank"
+                      class="teal-text hoverline">ALTIA</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role teal-text">Programador Senior</div>
+            <ul>
+              <li>
+                Inicio en Caixanova - NovaCaixaGalicia en COBOLCICS-DB2 y posteriormente gestión de la web corporativa interna, en java embebido, jstl, struts, jquery, css.
+              </li>
+              <li>
+                Proyecto FC - Formación Continua proyecto gestión de formación para gente empleada. Mantenimiento evolutivo y correctivo y soporte de nivel 2.
+              </li>
+              <li>
+                Sifo3 - SifoSelección. Proyectos para gestión de formación de gente desempleada y su baremo.
+              </li>
+              <li>
+                Bolsa Nacional de Empleo de Gobierno de Chile. Administración y mantenimiento de la actual BNE así como desarrollo de nueva plataforma web.
+              </li>
+              <li>
+                Viza Automoción. Desarrollo de Sistema de información integrado para el control de la trazabilidad de fabricación y la logística.
+              </li>
+              <li>
+                <b>Herramientas:</b> Java, Portlet, Struts, COBOL
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>2008 - 2016</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.generalsw.com/" target="_blank"><img alt="GS logo"
+                    src="/assets/img/gs.jpg" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.generalsw.com/" target="_blank"
+                      class="teal-text hoverline">General Software</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role teal-text">Programador Junior</div>
+            <ul>
+              <li>
+                SDU. Resolución Incidencias, conocimientos y participación en proyectos de los departamentos de tarjetas, valores y contabilidad. Nuevos desarrollos.
+              </li>
+              <li>
+                <b>Herramientas:</b> COBOL, CICS, DB2
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>2006 - 2008</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.coritel.it/" target="_blank"><img alt="GS logo"
+                    src="/assets/img/coritel.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.coritel.it/" target="_blank"
+                      class="teal-text hoverline">Coritel</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role teal-text">Programador Junior</div>
+            <ul>
+              <li>
+                Desarrollo de proyectos contables para banco en departamento de Préstamos.
+              </li>
+              <li>
+                <b>Herramientas:</b> COBOL, CICS, DB2
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>2005 - 2006</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Habilidades</h3>
+      <div class="container">
+        <!-- Languages and Databases -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="teal-text light">Lenguajes</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/java.png" class="responsive-img" />Java
+              </div>             
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/angular.png" class="responsive-img" />Angular
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/flutter.png" class="responsive-img" />Flutter
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/shell-logo-1-300x300.jpg" class="responsive-img" />Shell Scripting
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="teal-text light">Bases de datos</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/postgresql.png" class="responsive-img" />PostgreSQL
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/oracle.png" class="responsive-img" />Oracle
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/sqlserver.png" class="responsive-img" />SQLServer
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/mysql.png" class="responsive-img" />MySQL
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/mongodb.png" class="responsive-img" />MongoDB
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="teal-text light">Frameworks</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/springboot.png" class="responsive-img" />Spring boot
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/restapi.png" class="responsive-img" />API Rest
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/soap.jpg" class="responsive-img" />SOAP
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/jwt.png" class="responsive-img" />JWT
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/nginx.png" class="responsive-img" />Nginx
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/junit.jpg" class="responsive-img" />JUnit
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="teal-text light">Otros</h4>
+            <div class="row text-center">
+
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/aws.png" class="responsive-img" />AWS
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/docker.png" class="responsive-img" />Docker
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/kubernetes.png" class="responsive-img" />Kubernetes
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- certifications -->
+        <!-- <div class="card">
+          <div class="card-content">
+            <h4 class="teal-text light">Certificates</h4>
+            <div class="row text-left">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Algorithms (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Educación</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.formacioprofessional.com/ca/jesuites-el-clot" target="_blank" class="teal-text hoverline">Escola Técnica Profesional Jesuïtes El Clot</a></span>
+                </p>
+                <p class="teal-text">Barcelona, España</p>
+                <p>
+                  <b>Grado Superior: </b>DAI - Desarrollo de Aplicaciones Informáticas
+                </p>
+
+                <ul>
+                  <p>
+                    <b>Cursos relevantes:</b>
+                  <ul>
+                    <li>Bases de datos relacionales</li>                    
+                    <li>Fundamentos de algoritmos</li>
+                    <li>Redes</li>
+                    <li>Java</li>
+                    <li>HTML/CSS/JavaScript</li>
+                  </ul>
+                  </p>
+                </ul>
+              </div>
+            </div>            
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contacto</h3>
+      <div class="container">
+        <!--
+        <p>
+          <a aria-label="Llamar Carles" data-position="top" data-tooltip="Llamar Carles"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Llamar Carles">+14805722456</a></a>
+        </p>
+        -->
+        <p>
+          <a aria-label="Email Carles" href="mailto:cdulcet@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Carles" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Carles" href="mailto:cdulcet@gmail.com"
+              class="hoverline">cdulcet@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="Ver Carles en GitHub" href="http://github.com/cdulcet" target="_blank"
+            data-position="top" data-tooltip="View Carles on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Carles on Github" href="http://github.com/cdulcet" class="hoverline"
+              target="_blank">github.com/cdulcet</a></a>
+        </p>
+         
+      </div>
+
+        <!--
+        <p>
+          <a aria-label="View Carles on LinkedIn" href="http://linkedin.com/in/Carlesbhogayata" target="_blank"
+            data-position="top" data-tooltip="View Carles on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Carles on LinkedIn" href="http://linkedin.com/in/Carlesbhogayata"
+              class="hoverline" target="_blank">linkedin.com/in/Carlesbhogayata</a></a>
+        </p>
+        -->
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Programador", "Resolutivo", "Entusiasta de Spring"],
+      loop: true,
+      typeSpeed: 90,
+      backSpeed: 45
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
+</html>
